@@ -1,0 +1,42 @@
+body {
+  background-color: #F7F7F2;
+}
+
+header {
+  height: 100px;
+  background-color: #564D4A;
+}
+
+h1 {
+  padding-top: 15px;
+  text-align: center;
+  color: #F24333;
+}
+
+h2 {
+  text-align: center;
+  color: #F24333;
+}
+
+.animal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.animal-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.animal-card img {
+  height: 200px;
+  width: auto;
+}
+
+.animal-card p {
+  padding: 15px;
+}
