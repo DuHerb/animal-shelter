@@ -1,6 +1,10 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Raleway', sans-serif; */
+
 body {
   background-color: #F7F7F2;
   font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -14,6 +18,16 @@ header {
 h1, h2 {
   color: black;
   text-align: center;
+  font-family: 'Cinzel', serif;
+  margin: 0;
+}
+
+h2::before {
+  content: '---';
+}
+
+h2::after {
+  content: '---';
 }
 
 .sidebar {
@@ -24,6 +38,10 @@ h1, h2 {
   height: 1000px;
   margin: 25px 0;
   border-radius: 50px;
+}
+
+.sidebar p{
+  padding: 20px;
 }
 
 .animal-container {
@@ -43,10 +61,13 @@ h1, h2 {
 .animal-card img {
   height: 200px;
   width: auto;
+  border-radius: 50px;
+  border: 2px solid #F24333;
 }
 
 .animal-card h3 {
   text-align: center;
+  font-family: 'Cinzel', serif;
 }
 
 .animal-card p {
