@@ -4,7 +4,7 @@ body {
 
 header {
   height: 100px;
-  background-color: #564D4A;
+  background-color: #564D4A
 }
 
 h1 {
@@ -39,4 +39,37 @@ h2 {
 
 .animal-card p {
   padding: 15px;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  body {
+    font-weight: bold;
+  }
+
+  .animal-card {
+    width: 200px;
+  }
+
+  .animal-card img {
+    height: 160px;
+  }
+
+}
+
+/* Medium screen and Tablets */
+@media screen and (min-width: 481px) and (max-width: 1000px) {
+  body {
+    font-style: italic;
+  }
+  h2 {
+    display: none;
+  }
+
+  .animal-card {
+    width: 250px;
+  }
+  .animal-card img {
+    height: 180px;
+  }
 }
